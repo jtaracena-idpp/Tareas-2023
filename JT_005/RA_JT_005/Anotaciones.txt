@@ -1,0 +1,18 @@
+El 14/12/2022 se ingresó la ficha con el Estado Juridico "Sentencia Condenatoria con Pena de Prision Inconmutable"
+
+El 04/01/2023 se ingresó la resolución con fecha de resolución y notificación 07/06/2022 colocando el Estado Juridico "Sentencia Absolutoria"
+
+De acuerdo a lo solicitado, se realizó la revisión sobre si es posible o no realizar lo solicitado, ya que la ficha fue creada el día 14/12/2022, con el Estado Juridico "Sentencia Condenatoria con Pena de Prision Inconmutable", el día 04/01/2023 se ingresó la resolución con fecha de resolución y notificación 07/06/2022 colocando el Estado Juridico "Sentencia Absolutoria".
+
+Ambos estan como principal 1 y con estatus "AC" en la tabla DPTC058_HISTORIAL_ESTADO_JURIDICO
+
+Actualmente se encuentra con estatus AC el registro del Estado Juridico "Sentencia Absolutoria" en la tabla DPTD054_HISTORIAL_RESOLUCION
+
+En la tabla DPTD053_DELITO_HISTORIAL_ESTADO,
+* los registros del Estado Juridico "Sentencia Absolutoria" estan con INICIAL 0 y estatus "AC" (COD_HISTORIAL_EJ = 1184348)
+
+* los registros del Estado Juridico "Sentencia Condenatoria con Pena de Prision Inconmutable" estan con INICIAL 1 y estatus "HI" (COD_HISTORIAL_EJ = 1179944)
+
+INFORME
+De acuerdo a los registros, se puede observar que el caso se encuentra con el estado juridico correcto, de acuerdo a lo indicado en el oficio, en donde se muestra el registro que estuvo en el estado juridico de "Sentencia Condenatoria con Pena de Prision Inconmutable" es en los reportes de hoja de ruta y datos generales del caso.
+
